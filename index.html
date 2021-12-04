@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Space Snap</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="welcome">
+        <h1>Welcome aboard !</h1>
+        <p>Click to flick through</p>
+      </div>
+      <div id="boite" onclick="displaySnaps()">
+      <img src="blank.jpg" name="canvas" alt="Welcome"/>
+    </div>
+    <div id="menu">
+      <a href="credits.html">&#8734;</a>
+    </div>
+      <div id="footer"><span id="deploy" onclick="legendDisplay()"> -> </span><span id="legende" style="display:none;"></span></div>
+    </div>
+  </body>
+  <script>
+
+  function legendDisplay(){
+    if(document.getElementById("legende").style.display == "none"){
+      document.getElementById("legende").style.display = "inline-block";
+        document.getElementById("deploy").innerHTML = "<-  ";
+    }else{
+      document.getElementById("legende").style.display = "none";
+      document.getElementById("deploy").innerHTML = "->  ";
+    }
+  }
+
+  var screenShots = {
+    "imgs/observation1.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/observation2.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/observation3.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/observation4.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/observation5.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/observation6.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/observation7.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/observation8.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/observation9.jpg":"<i>Observation</i>, No Code, Devolver Digital, 2020 &middot; Prise de vue : 28/11/2021.",
+    "imgs/sayonara.jpg":"<i>Sayonara Wild Hearts</i>, Simogo, Annapurna Interactive, 2019 &middot; Prise de vue : 02/04/2020.",
+    "imgs/stillness1.jpg":"<i>The Stillness of the wind</i>, Memory of gold / Lambic Studio, Fellow Traveller, 2019 &middot; Prise de vue : 12/03/2021.",
+    "imgs/stillness2.jpg":"<i>The Stillness of the wind</i>, Memory of gold / Lambic Studio, Fellow Traveller, 2019 &middot; Prise de vue : 12/03/2021.",
+    "imgs/baldur.jpg":"<i>Baldur's Gate III</i>, Larian Studios, 2020 &middot; Prise de vue : 01/09/2021.",
+    "imgs/vanishing1.jpg":"<i>The Vanishing of Ethan Carter</i>, The Astronauts, 2014 &middot; Prise de vue : 30/12/2016.",
+    "imgs/vanishing2.jpg":"<i>The Vanishing of Ethan Carter</i>, The Astronauts, 2014 &middot; Prise de vue : 30/12/2016.",
+    "imgs/vanishing3.jpg":"<i>The Vanishing of Ethan Carter</i>, The Astronauts, 2014 &middot; Prise de vue : 30/12/2016.",
+    "imgs/vanishing4.jpg":"<i>The Vanishing of Ethan Carter</i>, The Astronauts, 2014 &middot; Prise de vue : 30/12/2016.",
+    "imgs/vanishing5.jpg":"<i>The Vanishing of Ethan Carter</i>, The Astronauts, 2014 &middot; Prise de vue : 30/12/2016.",
+    "imgs/starbound.jpg":"<i>Starbound</i>, Chucklefish, 2016 &middot; Prise de vue : 17/11/2019.",
+    "imgs/spaceplan1.jpg":"<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017 &middot; Prise de vue : 16/03/2020.",
+    "imgs/spaceplan2.jpg":"<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017 &middot; Prise de vue : 16/03/2020.",
+    "imgs/spaceplan3.jpg":"<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017 &middot; Prise de vue : 16/03/2020.",
+    "imgs/spaceplan4.jpg":"<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017 &middot; Prise de vue : 16/03/2020.",
+    "imgs/spaceplan5.jpg":"<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017 &middot; Prise de vue : 16/03/2020.",
+    "imgs/spaceplan6.jpg":"<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017 &middot; Prise de vue : 16/03/2020.",
+    "imgs/spaceplan7.jpg":"<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017 &middot; Prise de vue : 16/03/2020.",
+    "imgs/room1.jpg":"<i>The Room III</i>, Fireproof Games, 2018 &middot; Prise de vue : 22/12/2019.",
+    "imgs/room2.jpg":"<i>The Room III</i>, Fireproof Games, 2018 &middot; Prise de vue : 22/12/2019.",
+    "imgs/reddead.jpg":"<i>Red Dead Redemption II</i>, Rockstar Games, 2019 &middot; Prise de vue : 17/04/2020.",
+    "imgs/phoning1.jpg":"<i>Phoning Home</i>, Ion Lands, 2017 &middot; Prise de vue : 09/01/2018.",
+    "imgs/phoning2.jpg":"<i>Phoning Home</i>, Ion Lands, 2017 &middot; Prise de vue : 09/01/2018.",
+    "imgs/phoning3.jpg":"<i>Phoning Home</i>, Ion Lands, 2017 &middot; Prise de vue : 14/10/2020.",
+    "imgs/oldman1.jpg":"<i>Old Man's Journey</i>, Broken Rules, 2017 &middot; Prise de vue : 14/10/2020.",
+    "imgs/oldman2.jpg":"<i>Old Man's Journey</i>, Broken Rules, 2017 &middot; Prise de vue : 14/10/2020.",
+    "imgs/norwood1.jpg":"<i>The Norwood Suite</i>, Cosmo D, Alliance, 2017 &middot; Prise de vue : 10/03/2019.",
+    "imgs/norwood2.jpg":"<i>The Norwood Suite</i>, Cosmo D, Alliance, 2017 &middot; Prise de vue : 10/03/2019.",
+    "imgs/magiccircle.jpg":"<i>The Magic Circle</i>, Question, 2015 &middot; Prise de vue : 15/12/2018.",
+    "imgs/fidelio1.jpg":"<i>The Fidelio Incident</i>, Act 3 Games, LLC, 2017 &middot; Prise de vue : 25/03/2018.",
+    "imgs/fidelio2.jpg":"<i>The Fidelio Incident</i>, Act 3 Games, LLC, 2017 &middot; Prise de vue : 25/03/2018.",
+    "imgs/fez.jpg":"<i>FEZ</i>, Polytron Corporation, Trapdoor, 2013 &middot; Prise de vue : 12/03/2018.",
+    "imgs/everything1.jpg":"<i>Everything</i>, David OReilly, 2017 &middot; Prise de vue : 21/03/2018.",
+    "imgs/everything2.jpg":"<i>Everything</i>, David OReilly, 2017 &middot; Prise de vue : 21/03/2018.",
+    "imgs/everything3.jpg":"<i>Everything</i>, David OReilly, 2017 &middot; Prise de vue : 21/03/2018.",
+    "imgs/everything4.jpg":"<i>Everything</i>, David OReilly, 2017 &middot; Prise de vue : 21/03/2018.",
+    "imgs/everything5.jpg":"<i>Everything</i>, David OReilly, 2017 &middot; Prise de vue : 03/04/2018.",
+    "imgs/everything6.jpg":"<i>Everything</i>, David OReilly, 2017 &middot; Prise de vue : 03/04/2018.",
+    "imgs/everything7.jpg":"<i>Everything</i>, David OReilly, 2017 &middot; Prise de vue : 03/04/2018.",
+    "imgs/rapture1.jpg":"<i>Everybody's gone to the rapture</i>, The Chinese Room, LLC, 2016 &middot; Prise de vue : 07/01/2017.",
+    "imgs/rapture2.jpg":"<i>Everybody's gone to the rapture</i>, The Chinese Room, LLC, 2016 &middot; Prise de vue : 08/01/2017.",
+    "imgs/rapture3.jpg":"<i>Everybody's gone to the rapture</i>, The Chinese Room, LLC, 2016 &middot; Prise de vue : 08/01/2017.",
+    "imgs/detective1.jpg":"<i>The Darkside Detective</i>, Spooky Doorway, Akapura Games, 2017 &middot; Prise de vue : 02/11/2019.",
+    "imgs/detective2.jpg":"<i>The Darkside Detective</i>, Spooky Doorway, Akapura Games, 2017 &middot; Prise de vue : 02/11/2019.",
+    "imgs/crossingsouls.jpg":"<i>Crossing Souls</i>, Fourattic, Devolver Digital, 2018 &middot; Prise de vue : 24/05/2020.",
+    "imgs/blackwood.jpg":"<i>Blackwood Crossing</i>, Paper Seven LTD, Vision Games Publishing LTD, 2017 &middot; Prise de vue : 03/10/2020.",
+    "imgs/beginner1.jpg":"<i>The Beginner's Guide</i>, Everything Unlimited LTD, 2015 &middot; Prise de vue : 28/01/2017.",
+    "imgs/beginner2.jpg":"<i>The Beginner's Guide</i>, Everything Unlimited LTD, 2015 &middot; Prise de vue : 28/01/2017.",
+    "imgs/beginner3.jpg":"<i>The Beginner's Guide</i>, Everything Unlimited LTD, 2015 &middot; Prise de vue : 28/01/2017.",
+    "imgs/beginner4.jpg":"<i>The Beginner's Guide</i>, Everything Unlimited LTD, 2015 &middot; Prise de vue : 28/01/2017.",
+    "imgs/beginner5.jpg":"<i>The Beginner's Guide</i>, Everything Unlimited LTD, 2015 &middot; Prise de vue : 28/01/2017.",
+    "imgs/far1.jpg":"<i>FAR: Lone Sail</i>, Okomotive, Mixtvision, 2018 &middot; Prise de vue : 26/10/2020.",
+    "imgs/far2.jpg":"<i>FAR: Lone Sail</i>, Okomotive, Mixtvision, 2018 &middot; Prise de vue : 26/10/2020.",
+    "imgs/far3.jpg":"<i>FAR: Lone Sail</i>, Okomotive, Mixtvision, 2018 &middot; Prise de vue : 26/10/2020.",
+    "imgs/rime1.jpg":"<i>RiME</i>, Tequila Works, QLOC, Grey Box, Six Foot, 2017 &middot; Prise de vue : 13/11/2018.",
+    "imgs/rime2.jpg":"<i>RiME</i>, Tequila Works, QLOC, Grey Box, Six Foot, 2017 &middot; Prise de vue : 24/11/2018.",
+    "imgs/microcosmum.jpg":"<i>Microcosmum: survival of cells</i>, Satur Entertainments, 2018 &middot; Prise de vue : 03/12/2021"
+
+  };
+
+  function displaySnaps(){
+    document.getElementById('deploy').style.display = "inline";
+    document.getElementById('welcome').style.display = "none";
+    function randomImg(obj){
+      var a = [],
+       k;
+
+   for (k in obj)
+      if (obj.hasOwnProperty(k))
+          a.push(k);
+
+        if (a.length === 0)
+      return null; // or whatever default return you want for an empty object
+
+      return a[Math.floor(Math.random() * a.length)];
+
+   // or to return the actual value associated with the key:
+    return obj[ a[Math.floor(Math.random() * a.length)] ];
+    }
+
+    var randomSrc = randomImg(screenShots);
+    document.canvas.src = randomSrc;
+    document.getElementById("legende").innerHTML = screenShots[randomSrc];
+  }
+
+  </script>
+</html>
