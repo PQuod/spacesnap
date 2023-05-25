@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Space Snap V 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/imgsarrays.js"></script>
+    <script src="scripts/functions.js"></script>
+</head>
+
+<body>
+    <div id="boite">
+        <img src="" name="canvas" alt="Welcome" />
+    </div>
+
+    <div id="welcome">
+        <div class="texte-welcome">
+            <h1>☽ Spacesnap ☾</h1>
+            <h1>⚛</h1>
+            <h2>Bienvenue</h2>
+        </div>
+    </div>
+
+    <div id="tuto" style="display:none;">
+        <div class="texte-tuto">
+            <div class="tuto-desktop">
+                <h1>Tutoriel</h1>
+                <p></p>Vous pouvez naviguer dans Spacesnap à l'aide des touches de votre clavier ou en cliquant sur celles
+                qui apparaissent à l'écran.</p>
+                <div class="grid-tuto">
+                    <div>
+                        <p class="key littlekey">←</p>
+                        <p class="key littlekey">↑</p>
+                        <p class="key littlekey">↓</p>
+                        <p class="key littlekey">→</p>
+                    </div>
+                    <p>Se déplacer sur la carte</p>
+                </div>
+            </div>
+            <div class="grid-tuto">
+                <p class="key littlekey">M</p>
+                <p>Afficher ou cacher la carte</p>
+                <p class="key littlekey">I</p>
+                <p>Afficher ou cacher les légendes</p>
+                <p class="key">Echap</p>
+                <p>Afficher ou cacher les crédits</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="credits" >
+        <div id="credits-container" class="texte-credits" style="display:none;">
+            <h1>Crédits</h1>
+            <p><i>Spacesnap</i> est un album souvenir de plusieurs de mes voyages vidéoludiques. On peut y retrouver mon
+            obsession pour l'espace, l'océan, les dimensions et les univers parallèles.</p>
+            <h2>Feat.</h2>
+            <span id="anchorfeat"></span><br>
+            <p>Dernière mise à jour : mai 2023</p>
+            <h2>Versions</h2>
+            <p><em>V 2.0 &middot; mai 2023</em> &middot; Suppression de l'aléatoire, organisation des screens, élaboration de la carte, possibilité de se déplacer de manière quadri-directionnelle à travers la collection.</p>
+            <p><em>V 1.0 &middot; janvier 2022</em> &middot; À chaque click, affichage aléatoire d'un screen parmi une collection non ordonnée</p>
+            <h2>Contact</h2>
+            <p>Si vous constatez un bug ou souhaitez me suggérer un jeu où se trouvent d'incroyables images d'espace ou d'océan, n'hésitez pas à me contacter.</p>
+                <br>
+                <ul>
+                    <li>Mail : l.desaubliaux[at]gmail.com</li>
+                    <li><a href="https://www.instagram.com/lucie_desaubliaux/">Insta</a></li>
+                    <li><a href="https://github.com/PQuod/">Github</a></li>
+                </ul>
+                <br>
+                <br>
+        </div>
+    </div>
+
+    <div id="map">
+        <span id="anchormap"></span>
+    </div>
+
+    <div id="menu" style="display:none;">
+        Crédits <p class="key inline-p" id="creditskey" onclick="checkKey('27')">Echap</p><br>
+        Carte <p class="key inline-p" id="mapkey" onclick="checkKey('77')">M</p><br>
+        Légende <p class="key inline-p" id="legendkey" onclick="checkKey('73')">I</p>
+    </div>
+    <div id="legende-box">
+        <span id="legende" style="display:none;"></span><br>
+        <span id="errormessage" style="display: none;">
+        </span>
+    </div>
+
+    <div class="footer">
+        <p id="demarrage">Pour démarrer, appuyez sur</p>
+        <p id="fintuto" style="display: none;">Pour continuer, appuyez sur</p>
+        <div id="arrowkeyboard">
+            <div class="key" id="enterkey" onclick="checkKey('13')">Entrée</div>
+            <div class="key arrowkey" id="arrowup" onclick="checkKey('38')" style="display:none;">
+                ↑
+            </div>
+            <div class="key arrowkey" id="arrowleft" onclick="checkKey('37')" style="display:none;">
+                ←
+            </div>
+            <div class="key arrowkey" id="arrowdown" onclick="checkKey('40')" style="display:none;">
+                ↓
+            </div>
+            <div class="key arrowkey" id="arrowright" onclick="checkKey('39')" style="display:none;">
+                →
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
