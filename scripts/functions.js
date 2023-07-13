@@ -74,9 +74,7 @@ function checkKey(event) {
             //DIRECTIONS
             // If right arrow is pressed and we haven't reached last position on the X axis
             if ((event.keyCode == '39' || event == '39') && (posX < currentImgsArray.length) && (posX != 0 || posY != 0)) {
-                if (posX < currentImgsArray.length) {
-                    posX += 1;
-                }
+                posX += 1;
             }
             // If left arrow is pressed and we haven't reach first position on the X axis
             else if ((event.keyCode == '37' || event == '37') && (posX > 1)) {
