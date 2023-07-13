@@ -187,8 +187,7 @@ function locateOnMap(map) {
     let imgPosY = 0;
     let children = map.getElementsByTagName('p');
     for (let i = 0; i < children.length; i++) {
-        imgPositions = (children[i].className.slice(children[i].className.indexOf(' ') + 1));
-        imgPositions = imgPositions.split('_');
+        imgPositions = children[i].className.slice(children[i].className.indexOf(' ') + 1).split('_');
         imgPosX = parseInt(imgPositions[1]) + 1;
         imgPosY = parseInt(imgPositions[0]);
         if (posX == imgPosX && posY == imgPosY) {
