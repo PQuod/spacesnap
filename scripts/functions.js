@@ -33,7 +33,6 @@ function checkKey(event) {
     console.log(event);
     //Start (Hit 'Enter', display tuto)
     if(starter == true && (event.keyCode == '13' || event == '13')){
-        document.canvas.src = "blank.jpg";
         playSound('sounds/launching.wav');
         document.getElementById("tuto").style.display = "inline-block";
         document.getElementById("demarrage").style.display = "none";
