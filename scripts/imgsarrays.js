@@ -48,7 +48,7 @@ let imgsLatitudes = [
         ["imgs/wewerehereforever3.jpg", "<i>We were here forever</i>, Total Mayhem Games, 2022", "Prise de vue : 29/01/2023"],
         ["imgs/dave2.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"],
         ["imgs/abzu1.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
-        ["imgs/dredge.png", "<i>Dredge</i>, Black Salt Games, Team 17, 2023", "Prise de vue : 15/06/2023"],
+        ["imgs/dredge.jpg", "<i>Dredge</i>, Black Salt Games, Team 17, 2023", "Prise de vue : 15/06/2023"],
         ["imgs/dave4.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 14/07/2023"]
     ],
 
