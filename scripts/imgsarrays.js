@@ -107,7 +107,7 @@ let imgsLatitudes = [
         ["imgs/observation4.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
         ["imgs/observation6.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
         ["imgs/spaceplan1.jpg", "<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017", "Prise de vue : 16/03/2020."],
-        ["imgs/dave7.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 10/09/2023"]
+        ["imgs/dave7.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 10/09/2023"],
         ["imgs/detective2.jpg", "<i>The Darkside Detective</i>, Spooky Doorway, Akapura Games, 2017", "Prise de vue : 02/11/2019."],
         ["imgs/spaceplan2.jpg", "<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017", "Prise de vue : 16/03/2020."],
         ["imgs/vanishing1.jpg", "<i>The Vanishing of Ethan Carter</i>, The Astronauts, 2014", "Prise de vue : 30/12/2016."],
