@@ -38,6 +38,7 @@ let imgsLatitudes = [
         ["imgs/far3.jpg", "<i>FAR: Lone Sail</i>, Okomotive, Mixtvision, 2018", "Prise de vue : 26/10/2020."],
         ["imgs/far1.jpg", "<i>FAR: Lone Sail</i>, Okomotive, Mixtvision, 2018", "Prise de vue : 26/10/2020."],
         ["imgs/phoning1.jpg", "<i>Phoning Home</i>, Ion Lands, 2017", "Prise de vue : 09/01/2018."],
+        ["imgs/chantsofsennaar.jpg", "<i>Chants of Sennaar</i>, Rundisc, Focus Entertainment, 2023", "Prise de vue : 21/11/2023"],
         ["imgs/blackwood.jpg", "<i>Blackwood Crossing</i>, Paper Seven LTD, Vision Games Publishing LTD, 2017", "Prise de vue : 03/10/2020."],
         ["imgs/crossingsouls.jpg", "<i>Crossing Souls</i>, Fourattic, Devolver Digital, 2018", "Prise de vue : 24/05/2020."],
         ["imgs/norwood2.jpg", "<i>The Norwood Suite</i>, Cosmo D, Alliance, 2017", "Prise de vue : 10/03/2019"],
