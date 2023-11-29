@@ -8,7 +8,7 @@ let imgsLatitudes = [
         ["imgs/quern3.jpg", "<i>Quern, Undying thoughts</i>, Zadbox Entertainment, 2016", "Prise de vue : 18/03/2022"],
         ["imgs/quern1.jpg", "<i>Quern, Undying thoughts</i>, Zadbox Entertainment, 2016", "Prise de vue : 18/03/2022"],
         ["imgs/abzu3.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
-        ["imgs/dave6.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 15/07/2023"]
+        ["imgs/dave6.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 15/07/2023"],
         ["imgs/abzu7.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],   
         ["imgs/abzu4.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
     ],
