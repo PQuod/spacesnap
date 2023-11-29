@@ -20,7 +20,7 @@ let imgsLatitudes = [
         ["imgs/oldman1.jpg", "<i>Old Man's Journey</i>, Broken Rules, 2017", "Prise de vue : 14/10/2020."],
         ["imgs/callofthesea2.jpg", "<i>Call of the Sea</i>, Out of the Blue Games, Raw of Fury, 2020", "Prise de vue : 02/02/2022"],
         ["imgs/abzu5.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
-        ["imgs/dave0.jpg", "<i>Dave the Diver</i>, Mintrocket, 2023", "Prise de vue : 01/04/2023"],
+        ["imgs/dave0.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 01/04/2023"],
         ["imgs/dave5.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"]
     ],
 
