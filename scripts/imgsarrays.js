@@ -88,7 +88,7 @@ let imgsLatitudes = [
         ["imgs/fidelio2.jpg", "<i>The Fidelio Incident</i>, Act 3 Games, LLC, 2017", "Prise de vue : 25/03/2018."],
         ["imgs/dave3.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"],
         ["imgs/alittletotheleft.jpg", "<i>A little to the left</i>, Max Inferno, Secret Mode, 2022", "Prise de vue : 12/01/2023."],
-        ["imgs/ooblets/jpg", "<i>Ooblets</i>, Glumberland, 2023", "Prise de vue : 07/10/2023"]
+        ["imgs/ooblets.jpg", "<i>Ooblets</i>, Glumberland, 2023", "Prise de vue : 07/10/2023"]
     ],
     
 //Atmosphère
