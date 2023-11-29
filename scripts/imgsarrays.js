@@ -39,7 +39,9 @@ let imgsLatitudes = [
         ["imgs/crossingsouls.jpg", "<i>Crossing Souls</i>, Fourattic, Devolver Digital, 2018", "Prise de vue : 24/05/2020."],
         ["imgs/norwood2.jpg", "<i>The Norwood Suite</i>, Cosmo D, Alliance, 2017", "Prise de vue : 10/03/2019"],
         ["imgs/oldman2.jpg", "<i>Old Man's Journey</i>, Broken Rules, 2017", "Prise de vue : 14/10/2020."],
+        ["imgs/dredge2.jpg", "<i>Dredge</i>, Black Salt Games, Team 17, 2023", "Prise de vue : 17/06/2023"],
         ["imgs/wewerehereforever3.jpg", "<i>We were here forever</i>, Total Mayhem Games, 2022", "Prise de vue : 29/01/2023"],
+        ["imgs/dredge.png", "<i>Dredge</i>, Black Salt Games, Team 17, 2023", "Prise de vue : 15/06/2023"],
         ["imgs/abzu1.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"]
     ],
 
