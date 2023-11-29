@@ -98,8 +98,8 @@ let imgsLatitudes = [
         ["imgs/observation8.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
         ["imgs/observation9.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
         ["imgs/starbound.jpg", "<i>Starbound</i>, Chucklefish, 2016", "Prise de vue : 17/11/2019."],
-        ["imgs/pokemonecarlate3.jpg", "<i>Pokémon Ecarlate</i>, Game Freak, Nintendo, 2022", "Prise de vue: 10/11/2022."],
-
+        ["imgs/pokemonecarlate3.jpg", "<i>Pokémon Ecarlate</i>, Game Freak, Nintendo, 2022", "Prise de vue : 10/11/2022."],
+        ["imgs/heavensvault.jpg", "<i>Heaven's Vault</i>, Inkle ltd, 2019", "Prise de vue : 27/05/2023"]
     ],
 
     [
@@ -130,7 +130,7 @@ let imgsLatitudes = [
         ["imgs/everything5.jpg", "<i>Everything</i>, David OReilly, 2017", "Prise de vue : 03/04/2018."],
         ["imgs/everything6.jpg", "<i>Everything</i>, David OReilly, 2017", "Prise de vue : 03/04/2018."],
         ["imgs/everything7.jpg", "<i>Everything</i>, David OReilly, 2017", "Prise de vue : 03/04/2018."],
-        ["imgs/letsgopikachu.jpg", "<i>Pokémon: Let's go, Pikachu</i>, Game Freak, Nintendo, 2018", "Prise de vue : 05/05/2022." ],
+        ["imgs/letsgopikachu.jpg", "<i>Pokémon: Let's go, Pikachu</i>, Game Freak, Nintendo, 2018", "Prise de vue : 05/05/2022."],
         ["imgs/pokemonecarlate1.jpg", "<i>Pokémon Ecarlate</i>, Game Freak, Nintendo, 2022", "Prise de vue: 10/11/2022."],
         ["imgs/pokemonecarlate2.jpg", "<i>Pokémon Ecarlate</i>, Game Freak, Nintendo, 2022", "Prise de vue: 10/11/2022."],
         ["imgs/fez.jpg", "<i>FEZ</i>, Polytron Corporation, Trapdoor, 2013", "Prise de vue : 12/03/2018."],
@@ -139,7 +139,7 @@ let imgsLatitudes = [
         ["imgs/observation1.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
         ["imgs/observation2.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
         ["imgs/observation3.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
-        ["imgs/simulacra2.jpg", "<i>Simulacra 2</i>, Kaigan Games, Neon Doctrine, 2020", "Prise de vue : 29/10/2022"],    
+        ["imgs/simulacra2.jpg", "<i>Simulacra 2</i>, Kaigan Games, Neon Doctrine, 2020", "Prise de vue : 29/10/2022."],    
     ],
     [
         ["imgs/observation5.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", " Prise de vue : 28/11/2021."],
