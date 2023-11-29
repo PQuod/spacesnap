@@ -8,6 +8,7 @@ let imgsLatitudes = [
         ["imgs/quern3.jpg", "<i>Quern, Undying thoughts</i>, Zadbox Entertainment, 2016", "Prise de vue : 18/03/2022"],
         ["imgs/quern1.jpg", "<i>Quern, Undying thoughts</i>, Zadbox Entertainment, 2016", "Prise de vue : 18/03/2022"],
         ["imgs/abzu3.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
+        ["imgs/dave6.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 15/07/2023"]
         ["imgs/abzu7.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],   
         ["imgs/abzu4.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
     ],
@@ -15,10 +16,12 @@ let imgsLatitudes = [
     [
         ["imgs/abzu6.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
         ["imgs/abzu2.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
+        ["imgs/dave1.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"],
         ["imgs/oldman1.jpg", "<i>Old Man's Journey</i>, Broken Rules, 2017", "Prise de vue : 14/10/2020."],
         ["imgs/callofthesea2.jpg", "<i>Call of the Sea</i>, Out of the Blue Games, Raw of Fury, 2020", "Prise de vue : 02/02/2022"],
         ["imgs/abzu5.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
-        ["imgs/davethediver1.jpg", "<i>Dave the Diver</i>, Mintrocket, 2022 (earlyaccess)", "Prise de vue : 01/04/2023"],
+        ["imgs/dave0.jpg", "<i>Dave the Diver</i>, Mintrocket, 2023", "Prise de vue : 01/04/2023"],
+        ["imgs/dave5.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"]
     ],
 
     [
@@ -40,9 +43,12 @@ let imgsLatitudes = [
         ["imgs/norwood2.jpg", "<i>The Norwood Suite</i>, Cosmo D, Alliance, 2017", "Prise de vue : 10/03/2019"],
         ["imgs/oldman2.jpg", "<i>Old Man's Journey</i>, Broken Rules, 2017", "Prise de vue : 14/10/2020."],
         ["imgs/dredge2.jpg", "<i>Dredge</i>, Black Salt Games, Team 17, 2023", "Prise de vue : 17/06/2023"],
+        ["imgs/dave8.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 15/07/2023"],
         ["imgs/wewerehereforever3.jpg", "<i>We were here forever</i>, Total Mayhem Games, 2022", "Prise de vue : 29/01/2023"],
+        ["imgs/dave2.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"],
+        ["imgs/abzu1.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"],
         ["imgs/dredge.png", "<i>Dredge</i>, Black Salt Games, Team 17, 2023", "Prise de vue : 15/06/2023"],
-        ["imgs/abzu1.jpg", "<i>Abzu</i>, Giant Squid, 505 Games, 2016", "Prise de vue: 01/04/2023"]
+        ["imgs/dave4.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 14/07/2023"]
     ],
 
     [
@@ -76,6 +82,7 @@ let imgsLatitudes = [
         ["imgs/baldur.jpg", "<i>Baldur's Gate III</i>, Larian Studios, 2020", "Prise de vue : 01/09/2021."],
         ["imgs/fidelio1.jpg", "<i>The Fidelio Incident</i>, Act 3 Games, LLC, 2017", "Prise de vue : 25/03/2018."],
         ["imgs/fidelio2.jpg", "<i>The Fidelio Incident</i>, Act 3 Games, LLC, 2017", "Prise de vue : 25/03/2018."],
+        ["imgs/dave3.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"],
         ["imgs/alittletotheleft.jpg", "<i>A little to the left</i>, Max Inferno, Secret Mode, 2022", "Prise de vue : 12/01/2023."],
         ["imgs/spiritfarer3.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."],
         ["imgs/spiritfarer2.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."],
@@ -98,6 +105,7 @@ let imgsLatitudes = [
         ["imgs/observation4.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
         ["imgs/observation6.jpg", "<i>Observation</i>, No Code, Devolver Digital, 2020", "Prise de vue : 28/11/2021."],
         ["imgs/spaceplan1.jpg", "<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017", "Prise de vue : 16/03/2020."],
+        ["imgs/dave7.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 10/09/2023"]
         ["imgs/detective2.jpg", "<i>The Darkside Detective</i>, Spooky Doorway, Akapura Games, 2017", "Prise de vue : 02/11/2019."],
         ["imgs/spaceplan2.jpg", "<i>Spaceplan</i>, Jake Hollands, Devolver Digital, 2017", "Prise de vue : 16/03/2020."],
         ["imgs/vanishing1.jpg", "<i>The Vanishing of Ethan Carter</i>, The Astronauts, 2014", "Prise de vue : 30/12/2016."],
