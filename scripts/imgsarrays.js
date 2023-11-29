@@ -74,6 +74,9 @@ let imgsLatitudes = [
         ["imgs/beginner1.jpg", "<i>The Beginner's Guide</i>, Everything Unlimited LTD, 2015", "Prise de vue : 28/01/2017."],
         ["imgs/wewerehereforever2.jpg", "<i>We were here forever</i>, Total Mayhem Games, 2022", "Prise de vue : 29/01/2023"],
         ["imgs/wewerehereforever1.jpg", "<i>We were here forever</i>, Total Mayhem Games, 2022", "Prise de vue : 29/01/2023"],
+        ["imgs/spiritfarer3.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."],
+        ["imgs/spiritfarer2.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."],
+        ["imgs/spiritfarer4.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."]
     ],
 
     [
@@ -84,9 +87,7 @@ let imgsLatitudes = [
         ["imgs/fidelio2.jpg", "<i>The Fidelio Incident</i>, Act 3 Games, LLC, 2017", "Prise de vue : 25/03/2018."],
         ["imgs/dave3.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"],
         ["imgs/alittletotheleft.jpg", "<i>A little to the left</i>, Max Inferno, Secret Mode, 2022", "Prise de vue : 12/01/2023."],
-        ["imgs/spiritfarer3.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."],
-        ["imgs/spiritfarer2.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."],
-        ["imgs/spiritfarer4.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."]
+        ["imgs/ooblets/jpg", "<i>Ooblets</i>, Glumberland, 2023", "Prise de vue : 07/10/2023"]
     ],
     
 //Atmosphère
