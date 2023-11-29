@@ -91,7 +91,6 @@ function checkKey(event) {
                 checkPosY();
             }
         }
-        playSound('sounds/deplacement.wav');
         //Function calls at each keydown
         locateOnMap(document.getElementById("map"));
         allSystemsDisconnected(document.getElementById("errormessage"));
