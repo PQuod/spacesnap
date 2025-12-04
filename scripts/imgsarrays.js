@@ -43,8 +43,10 @@ let imgsLatitudes = [
         ["imgs/chantsofsennaar.jpg", "<i>Chants of Sennaar</i>, Rundisc, Focus Entertainment, 2023", "Prise de vue : 21/11/2023."],
         ["imgs/blackwood.jpg", "<i>Blackwood Crossing</i>, Paper Seven LTD, Vision Games Publishing LTD, 2017", "Prise de vue : 03/10/2020."],
         ["imgs/crossingsouls.jpg", "<i>Crossing Souls</i>, Fourattic, Devolver Digital, 2018", "Prise de vue : 24/05/2020."],
+        ["imgs/atone6.jpg", "<i>ATONE, Heart of the Elder Tree</i>, Wildboy Studios, Untold Tales, 2023", "Prise de vue : 15/11/2025."],
         ["imgs/blueprince.jpg", "<i>Blue Prince</i>, Dogubomb, Raw Fury, 2025", "Prise de vue : 15/04/2025."], 
         ["imgs/norwood2.jpg", "<i>The Norwood Suite</i>, Cosmo D, Alliance, 2017", "Prise de vue : 10/03/2019."],
+        ["imgs/atone5.jpg", "<i>ATONE, Heart of the Elder Tree</i>, Wildboy Studios, Untold Tales, 2023", "Prise de vue : 15/11/2025."],
         ["imgs/oldman2.jpg", "<i>Old Man's Journey</i>, Broken Rules, 2017", "Prise de vue : 14/10/2020."],
         ["imgs/staticdread2.jpg", "<i>Static Dread : The Lighthouse</i>, solarsuit.games, Polden Publishing, 2025", "Prise de vue : 11/09/2025."],
         ["imgs/dredge2.jpg", "<i>Dredge</i>, Black Salt Games, Team 17, 2023", "Prise de vue : 17/06/2023."],
@@ -55,7 +57,9 @@ let imgsLatitudes = [
         ["imgs/dredge.jpg", "<i>Dredge</i>, Black Salt Games, Team 17, 2023", "Prise de vue : 15/06/2023."],
         ["imgs/minuteofislands.jpg", "<i>Minute of Islands</i>, Studio Fizbin, Assemble Entertainment, 2021", "Prise de vue : 10/02/2025."],
         ["imgs/lba2.jpg", "<i>Little Big Adventure: Twinsen's quest</i>, [2.21], Microids, 2024", "Prise de vue : 23/12/2024."],
-        ["imgs/dave4.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 14/07/2023."]
+        ["imgs/dave4.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 14/07/2023."],
+        ["imgs/atone4.jpg", "<i>ATONE, Heart of the Elder Tree</i>, Wildboy Studios, Untold Tales, 2023", "Prise de vue : 15/11/2025."],
+        ["imgs/absolum.jpg", "<i>Absolum</i>, Dotemu, Guard Crush Games, Supamonks, Gamirror Games, 2025", "Prise de vue : 27/11/2025."]
     ],
 
     [
@@ -83,9 +87,11 @@ let imgsLatitudes = [
         ["imgs/LBA1.jpg", "<i>Little Big Adventure: Twinsen's quest</i>, [2.21], Microids, 2024", "Prise de vue : 23/12/2024."],
         ["imgs/wewerehereforever2.jpg", "<i>We were here forever</i>, Total Mayhem Games, 2022", "Prise de vue : 29/01/2023."],
         ["imgs/wewerehereforever1.jpg", "<i>We were here forever</i>, Total Mayhem Games, 2022", "Prise de vue : 29/01/2023."],
-        ["imgs/spiritfarer3.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."],
-        ["imgs/spiritfarer2.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."],
-        ["imgs/spiritfarer4.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue: 28/12/2021."]
+        ["imgs/spiritfarer3.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue : 28/12/2021."],
+        ["imgs/atone2.jpg", "<i>ATONE, Heart of the Elder Tree</i>, Wildboy Studios, Untold Tales, 2023", "Prise de vue : 15/11/2025."],
+        ["imgs/atone3.jpg", "<i>ATONE, Heart of the Elder Tree</i>, Wildboy Studios, Untold Tales, 2023", "Prise de vue : 15/11/2025."],
+        ["imgs/spiritfarer2.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue : 28/12/2021."],
+        ["imgs/spiritfarer4.jpg", "<i>Spiritfarer</i>, Thunder Lotus Games, 2020", "Prise de vue : 28/12/2021."]
     ],
 
     [
@@ -95,10 +101,11 @@ let imgsLatitudes = [
         ["imgs/fidelio1.jpg", "<i>The Fidelio Incident</i>, Act 3 Games, LLC, 2017", "Prise de vue : 25/03/2018."],
         ["imgs/fidelio2.jpg", "<i>The Fidelio Incident</i>, Act 3 Games, LLC, 2017", "Prise de vue : 25/03/2018."],
         ["imgs/zelda_totk1.jpg", "<i>The Legend of Zelda: Tears of the Kingdom</i>, Nintendo, 2023", "Prise de vue : 15/01/2024."],
-        ["imgs/tunic.jpg", "<i>Tunic</i>, TUNIC Team, Finji, 2022", "Prise de vue : 15/05/2024"],
+        ["imgs/tunic.jpg", "<i>Tunic</i>, TUNIC Team, Finji, 2022", "Prise de vue : 15/05/2024."],
         ["imgs/midnightscenesnanny.jpg", "<i>Midnight Scenes : The Nanny, White Blanket Games, Octavi Navarro, 2021", "Prise de vue : 01/06/2024."],
-        ["imgs/dave3.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023"],
+        ["imgs/dave3.jpg", "<i>Dave the diver</i>, Mintrocket, 2023", "Prise de vue : 11/07/2023."],
         ["imgs/zelda_totk2.jpg", "<i>The Legend of Zelda: Tears of the Kingdom</i>, Nintendo, 2023", "Prise de vue : 18/01/2024."],
+        ["imgs/atone1.jpg", "<i>ATONE, Heart of the Elder Tree</i>, Wildboy Studios, Untold Tales, 2023", "Prise de vue : 15/11/2025."],
         ["imgs/alittletotheleft.jpg", "<i>A little to the left</i>, Max Inferno, Secret Mode, 2022", "Prise de vue : 12/01/2023."],
         ["imgs/ooblets.jpg", "<i>Ooblets</i>, Glumberland, 2023", "Prise de vue : 07/10/2023"],
         ["imgs/midnightsceneshighway.jpg", "<i>Midnight Scenes : The Highway</i>, White Blanket Games, Octavi Navarro, 2020", "Prise de vue : 31/05/2024."]
